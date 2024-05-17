@@ -60,7 +60,7 @@ function Header({ cartItems, addToCart }) {
         <nav>
           <ul>
             <li>
-              <NavLink to="/my-app">HOME</NavLink>
+              <NavLink to="/smart-sphere/">HOME</NavLink>
             </li>
             <li>
               <NavLink to="/products">PRODUCTS</NavLink>
