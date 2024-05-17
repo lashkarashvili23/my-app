@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smart-sphere/static/css/main.7768fb60.css",
-    "main.js": "/smart-sphere/static/js/main.2993569a.js",
+    "main.js": "/smart-sphere/static/js/main.c96664df.js",
     "static/js/453.ed3810f9.chunk.js": "/smart-sphere/static/js/453.ed3810f9.chunk.js",
     "static/media/7.jpg": "/smart-sphere/static/media/7.524cfb10afb476195988.jpg",
     "static/media/1.jpg": "/smart-sphere/static/media/1.cda0cad1ebb2eb040f4e.jpg",
@@ -13,11 +13,11 @@
     "static/media/2.jpg": "/smart-sphere/static/media/2.4c6340256475c78d29aa.jpg",
     "index.html": "/smart-sphere/index.html",
     "main.7768fb60.css.map": "/smart-sphere/static/css/main.7768fb60.css.map",
-    "main.2993569a.js.map": "/smart-sphere/static/js/main.2993569a.js.map",
+    "main.c96664df.js.map": "/smart-sphere/static/js/main.c96664df.js.map",
     "453.ed3810f9.chunk.js.map": "/smart-sphere/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7768fb60.css",
-    "static/js/main.2993569a.js"
+    "static/js/main.c96664df.js"
   ]
 }
