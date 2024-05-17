@@ -121,7 +121,7 @@ function App() {
     <div className="App">
       <Header addToCart={addToCart} cartItems={cartItems} />
       <Routes>
-        <Route exact path="/my-app" element={<Homepage />} />
+        <Route exact path="/smart-sphere" element={<Homepage />} />
         <Route
           exact
           path="/products"
