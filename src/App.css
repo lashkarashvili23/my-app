@@ -1,38 +1,379 @@
 .App {
+  margin: 0;
+  padding: 0;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 6%;
+}
+.about-us {
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.about-us-txt {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.welc-text {
+  font-size: 1.3em;
+  font-weight: 600;
+  width: 70%;
+}
+.highlight {
+  color: #ffc107;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.highlight:hover {
+  color: #ffa000;
+  transition: all 0.3s ease 0s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shop-btn {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffc107;
+  font-size: 1.3em;
+}
+.shop-btn:hover {
+  background-color: #ffa000;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  width: 22%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+h4 {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.add-to-cart-btn {
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffc107;
+  margin-bottom: 7px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.add-to-cart-btn:hover {
+  background-color: #ffa000;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1900px) {
+  .card {
+    width: 20%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1440px) {
+  .title,
+  .price {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .card {
+    width: 18%;
+  }
+  .title,
+  .price {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .title,
+  .price {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .title,
+  .price {
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .title,
+  .price {
+    font-size: 0.5em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.58em;
+    margin-bottom: 3px;
+    height: 20px;
+  }
+  .card {
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .card {
+    width: 16%;
+  }
+  .title,
+  .price {
+    font-size: 0.4377em;
+  }
+  .welc-text,
+  .about-us-txt {
+    font-size: 1em;
+  }
+  .shop-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .title,
+  .price {
+    font-size: 0.4em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.5em;
+    margin-bottom: 2px;
+    height: 16px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .title,
+  .price {
+    font-size: 0.32em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.4em;
+    margin-bottom: 1px;
+    height: 14px;
+    border-radius: 3px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .card {
+    width: 35%;
+  }
+  .title,
+  .price {
+    font-size: 0.7em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    height: 22px;
+    border-radius: 6px;
+  }
+}
+@media only screen and (max-width: 533px) {
+  .title,
+  .price {
+    font-size: 0.65em;
+  }
+  .welc-text,
+  .about-us-txt {
+    font-size: 0.8em;
+  }
+  .shop-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 492px) {
+  .title,
+  .price {
+    font-size: 0.6em;
+  }
+  .card {
+    width: 38%;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .card {
+    width: 38%;
+  }
+  .title,
+  .price {
+    font-size: 0.6em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.6em;
+    margin-bottom: 4px;
+  }
+  .card-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .card-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .card {
+    margin: 6px;
+    margin-top: 15px;
+    padding: 4px;
+  }
+}
+@media only screen and (max-width: 315px) {
+  .title,
+  .price {
+    font-size: 0.5em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.55em;
+    margin-bottom: 4px;
+    height: 18px;
+    border-radius: 4px;
+  }
+  .welc-text,
+  .about-us-txt {
+    font-size: 0.7em;
+  }
+  .shop-btn {
+    width: 60px;
+    height: 20px;
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 270px) {
+  .title,
+  .price {
+    font-size: 0.45em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.5em;
+    height: 16px;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .title,
+  .price {
+    font-size: 0.4em;
+  }
+  .add-to-cart-btn {
+    font-size: 0.42em;
+    height: 15px;
+  }
+  .card {
+    margin: 5px;
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 6px;
+  }
+}
+@media only screen and (max-width: 240px) {
+  .title,
+  .price {
+    font-size: 0.37em;
+  }
+}
+@media only screen and (max-width: 204px) {
+  .card {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 195px) {
+  .card-container {
+    margin-top: 70px;
+  }
+  .welc-text,
+  .about-us-txt {
+    font-size: 0.6em;
+    padding-top: 62px;
+  }
+  .about-us-txt {
+    padding-top: 35px;
+  }
+  .shop-btn {
+    width: 60px;
+    height: 20px;
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-width: 150px) {
+  .card {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 130px) {
+  .card {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 107px) {
+  .card-container {
+    margin-top: 67px;
+  }
+  .title,
+  .price {
+    font-size: 5px;
+  }
+  .add-to-cart-btn {
+    font-size: 6px;
+    height: 12px;
+  }
+  .card {
+    margin: 1px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 90px) {
+  .add-to-cart-btn {
+    font-size: 5px;
+    height: 12px;
+  }
+  .title,
+  .price {
+    font-size: 4px;
+  }
+}
+@media only screen and (max-width: 70px) {
+  .add-to-cart-btn {
+    font-size: 4px;
+  }
+  .title,
+  .price {
+    font-size: 3px;
   }
 }
