@@ -19,7 +19,6 @@
 .home-page {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   padding-top: 6%;
 }
@@ -62,7 +61,7 @@
 }
 
 .card {
-  width: 22%;
+  width: 20%;
   height: auto;
   background-color: rgba(255, 255, 255, 255);
   border-radius: 15px;
@@ -96,6 +95,13 @@ img {
   background-color: #ffa000;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+}
+@media only screen and (max-width: 2266px) {
+  .card {
+    width: 18%;
+    margin: 12px;
+    padding: 4px;
+  }
 }
 @media only screen and (max-width: 1900px) {
   .card {
