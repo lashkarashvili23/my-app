@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.7768fb60.css",
-    "main.js": "/my-app/static/js/main.a2d9c1ad.js",
-    "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
-    "static/media/7.jpg": "/my-app/static/media/7.524cfb10afb476195988.jpg",
-    "static/media/1.jpg": "/my-app/static/media/1.cda0cad1ebb2eb040f4e.jpg",
-    "static/media/3.jpg": "/my-app/static/media/3.891275b3a90f7e8f7c3c.jpg",
-    "static/media/6.jpg": "/my-app/static/media/6.9c7375784b1a1d90000d.jpg",
-    "static/media/5.jpg": "/my-app/static/media/5.953feae5e10ec640d001.jpg",
-    "static/media/8.jpg": "/my-app/static/media/8.a1583f877b3b50a9caa4.jpg",
-    "static/media/4.jpg": "/my-app/static/media/4.ec26b53afb7b9efbffe1.jpg",
-    "static/media/2.jpg": "/my-app/static/media/2.4c6340256475c78d29aa.jpg",
-    "index.html": "/my-app/index.html",
-    "main.7768fb60.css.map": "/my-app/static/css/main.7768fb60.css.map",
-    "main.a2d9c1ad.js.map": "/my-app/static/js/main.a2d9c1ad.js.map",
-    "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/smart-sphere/static/css/main.7768fb60.css",
+    "main.js": "/smart-sphere/static/js/main.2993569a.js",
+    "static/js/453.ed3810f9.chunk.js": "/smart-sphere/static/js/453.ed3810f9.chunk.js",
+    "static/media/7.jpg": "/smart-sphere/static/media/7.524cfb10afb476195988.jpg",
+    "static/media/1.jpg": "/smart-sphere/static/media/1.cda0cad1ebb2eb040f4e.jpg",
+    "static/media/3.jpg": "/smart-sphere/static/media/3.891275b3a90f7e8f7c3c.jpg",
+    "static/media/6.jpg": "/smart-sphere/static/media/6.9c7375784b1a1d90000d.jpg",
+    "static/media/5.jpg": "/smart-sphere/static/media/5.953feae5e10ec640d001.jpg",
+    "static/media/8.jpg": "/smart-sphere/static/media/8.a1583f877b3b50a9caa4.jpg",
+    "static/media/4.jpg": "/smart-sphere/static/media/4.ec26b53afb7b9efbffe1.jpg",
+    "static/media/2.jpg": "/smart-sphere/static/media/2.4c6340256475c78d29aa.jpg",
+    "index.html": "/smart-sphere/index.html",
+    "main.7768fb60.css.map": "/smart-sphere/static/css/main.7768fb60.css.map",
+    "main.2993569a.js.map": "/smart-sphere/static/js/main.2993569a.js.map",
+    "453.ed3810f9.chunk.js.map": "/smart-sphere/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7768fb60.css",
-    "static/js/main.a2d9c1ad.js"
+    "static/js/main.2993569a.js"
   ]
 }
